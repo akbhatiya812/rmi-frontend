@@ -1,0 +1,71 @@
+.login {
+  height: 100vh;
+  background-image: linear-gradient(to right, #fff5bc, #cec1ff);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2vmax;
+  box-sizing: border-box;
+}
+
+.loginForm {
+  background-color: white;
+  height: fit-content;
+  width: 35%;
+  border-radius: 30px;
+  box-sizing: border-box;
+  padding: 2vmax;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login_button
+{
+  padding: 10px 35px !important;
+  background-image: linear-gradient(to right, #fff5bc, #cec1ff);
+  color: rgb(84, 82, 82) !important;
+  font-weight: bold !important;
+}
+
+.loginForm > input {
+  box-sizing: border-box;
+  padding: 1vmax 2vmax;
+  width: 80%;
+  border-radius: 40px;
+  border: 1px solid #ccc;
+  margin: 2vmax;
+  /* font: 100 1.2rem "Roboto", sans-serif; */
+  font-size: 1vw;
+  outline: none;
+}
+.css-gepadz-MuiTypography-root {
+  font-size: 2.5vw !important;
+}
+@media screen and (max-width: 769px) {
+  .css-gepadz-MuiTypography-root {
+    font-size: 5.5vw !important;
+  }
+}
+.loginForm > a {
+  align-self: flex-end;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.342);
+  margin: 2vmax;
+}
+
+@media screen and (max-width: 769px) {
+  .loginForm {
+    width: 100%;
+  }
+
+  .loginForm > input {
+    padding: 4vw 8vw;
+    margin: 2vmax;
+    margin: 4vw;
+    font-size: 3.5vw;
+  }
+
+  .loginForm > a {
+    align-self: center;
+  }
+}
